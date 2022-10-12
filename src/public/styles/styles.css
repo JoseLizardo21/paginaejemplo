@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#textIni{
+position: absolute;
+width: 536px;
+height: 132px;
+left: 136px;
+top: 282px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 53px;
+line-height: 57px;
+/* or 108% */
+color: #000000;
+}
+#text2{
+    position: absolute;
+    width: 482px;
+    height: 47px;
+    left: 141px;
+    top: 414px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #777777;
+}
+#btnsIni{
+    display: flex;
+    margin-top: 511px;
+    margin-left: 138px;
+}
+#btn1, #btn2{
+    width: 196px;
+    height: 45px;
+    background: #0E1133;
+    border-radius: 8px;
+    color: white;
+}
+#btn2{
+    color: black;
+    margin-left: 21px;
+    background: #E5E5E5;
+}
+#cajafrase{
+    width: 130px;
+    height: 75px;
+    margin-left: 579px;
+    background: #00A600;
+    border-radius: 17.7432px 17.7432px 17.7432px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#margenImagen{
+    box-sizing: border-box;
+    position: absolute;
+    width: 391.83px;
+    height: 504.2px;
+    left: 800.7px;
+    top: 212px;
+    border: 2.2179px solid #000000;
+    border-radius: 31.0506px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imagen1{
+    height: 210px;
+}
+#imagen2{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    width: 50px;
+}
