@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src",
-    "start": "node ./src/index.js"
+    "start": "node src"
   },
   "keywords": [],
   "author": "",
